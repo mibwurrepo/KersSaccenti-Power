@@ -27,4 +27,12 @@ KersSaccenti-Power/
 		|------- HMP_alpha_beta.R
 		|------- SimulatedData_alpha.R
 		|------- SimulatedData_beta.R
+		
+|------- Simulated Data 
+		|--- Deletion files
+		|--- Reduction files
+		
+
+		
+		
 ```

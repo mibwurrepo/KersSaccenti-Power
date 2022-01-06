@@ -19,11 +19,12 @@ Structure:
 KersSaccenti-Power/      
 
 |------- Data/    # biom and metadata files
-		|------- HMP.biom1 
-		|------- HMP.csv #metadata
-		|------- Chick.biom1
-		|------- Chick.csv #metdata
+		|------- humanmicrobiome.biom1 
+		|------- humanmicrobiome.tree 
+		|------- metadata_table.csv #metadata
+
 |------- RCode # Code file with analysis workflow    
-		|------- Power_alpha.R
-		|------- Power_beta.R
+		|------- HMP_alpha_beta.R
+		|------- SimulatedData_alpha.R
+		|------- SimulatedData_beta.R
 ```

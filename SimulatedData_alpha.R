@@ -12,9 +12,9 @@ library(vegan)
 library(picante)
 
 ## LOAD DATA
-data.directory = 'C:/Users/F124248/OneDrive - Universiteit Utrecht/AK_Manuscripten/SampleSize_Edo/Github'
-treefile_p1 <- read.tree("C:/Users/F124248/OneDrive - Universiteit Utrecht/AK_Manuscripten/SampleSize_Edo/Github/humanmicrobiome.tree")
-load("C:/Users/F124248/OneDrive - Universiteit Utrecht/AK_Manuscripten/SampleSize_Edo/Github/phylo_simulated_simulated_data_reduction_16March2021_1.ctrl.Rdata")
+data.directory = ('..')
+treefile_p1 <- read.tree('..')
+load('..')
 
 ps.ng.tax_GUT.simulated.ctrl <- merge_phyloseq(ps.ng.tax_GUT.simulated.ctrl, treefile_p1)
 
